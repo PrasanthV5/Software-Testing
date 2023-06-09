@@ -2,53 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-26T20:05:28 IST" name="Suite" finished-at="2023-03-26T20:05:42 IST" duration-ms="13899">
+  <suite started-at="2023-04-19T00:09:10 IST" name="Default suite" finished-at="2023-04-19T00:09:22 IST" duration-ms="12576">
     <groups>
     </groups>
-    <test started-at="2023-03-26T20:05:28 IST" name="FireFoxTest" finished-at="2023-03-26T20:05:40 IST" duration-ms="11848">
-      <class name="testNG_crossBrowser.CrossBrowser_Testing">
-        <test-method signature="tc1(java.lang.String)[pri:0, instance:testNG_crossBrowser.CrossBrowser_Testing@55634720]" started-at="2023-03-26T20:05:28 IST" name="tc1" finished-at="2023-03-26T20:05:40 IST" duration-ms="11817" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[fireFox]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-04-19T00:09:10 IST" name="Default test" finished-at="2023-04-19T00:09:22 IST" duration-ms="12576">
+      <class name="testNG.Parallel_excution_method">
+        <test-method signature="tc1()[pri:0, instance:testNG.Parallel_excution_method@3fb1549b]" started-at="2023-04-19T00:09:10 IST" name="tc1" finished-at="2023-04-19T00:09:14 IST" duration-ms="4076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc1 -->
-      </class> <!-- testNG_crossBrowser.CrossBrowser_Testing -->
-    </test> <!-- FireFoxTest -->
-    <test started-at="2023-03-26T20:05:28 IST" name="ChromeTest" finished-at="2023-03-26T20:05:41 IST" duration-ms="13278">
-      <class name="testNG_crossBrowser.CrossBrowser_Testing">
-        <test-method signature="tc1(java.lang.String)[pri:0, instance:testNG_crossBrowser.CrossBrowser_Testing@28f2a10f]" started-at="2023-03-26T20:05:28 IST" name="tc1" finished-at="2023-03-26T20:05:41 IST" duration-ms="13250" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="tc2()[pri:0, instance:testNG.Parallel_excution_method@3fb1549b]" started-at="2023-04-19T00:09:14 IST" name="tc2" finished-at="2023-04-19T00:09:16 IST" duration-ms="2483" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc1 -->
-      </class> <!-- testNG_crossBrowser.CrossBrowser_Testing -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2023-03-26T20:05:28 IST" name="EdgeTest" finished-at="2023-03-26T20:05:42 IST" duration-ms="13898">
-      <class name="testNG_crossBrowser.CrossBrowser_Testing">
-        <test-method signature="tc1(java.lang.String)[pri:0, instance:testNG_crossBrowser.CrossBrowser_Testing@2d710f1a]" started-at="2023-03-26T20:05:28 IST" name="tc1" finished-at="2023-03-26T20:05:42 IST" duration-ms="13871" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- tc2 -->
+        <test-method signature="tc3()[pri:0, instance:testNG.Parallel_excution_method@3fb1549b]" started-at="2023-04-19T00:09:16 IST" name="tc3" finished-at="2023-04-19T00:09:22 IST" duration-ms="5991" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc1 -->
-      </class> <!-- testNG_crossBrowser.CrossBrowser_Testing -->
-    </test> <!-- EdgeTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tc3 -->
+      </class> <!-- testNG.Parallel_excution_method -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
